@@ -25,7 +25,7 @@ header{
 }
 
 .nav li a:hover{
-    color: lawngreen;
+    color: #B9FF66;
 }
 
 .quote{
@@ -36,8 +36,111 @@ header{
     margin-left: 40px;
 }
 .quote:hover{
-    background-color: lawngreen;}
+    background-color: #B9FF66;}
 
 .quote:hover a{
     color: black !important;
+}
+
+.topsection{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.topsection h1{
+    width: 534px;
+    height: 270px;
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 700;
+}
+.topsection p{
+    width: 534px;
+    height: 81px;;
+}
+.booking-btn{
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    transition: background-color .2s;
+}
+.booking-btn:hover{
+    background-color: #B9FF66;
+    color: black;
+}
+.top-img img{
+    width: 550px;
+    margin-right: 100px;
+}
+
+.Site-Logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 90px;
+}
+.Site-Logos span img{
+    width: auto;
+    max-height: 50px;
+    object-fit: contain;
+}
+.services-tag{
+    padding: 40px 60px;
+}
+.servies-top h2{
+    font-size: 40px;
+    background-color: #B9FF66;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.servies-top p{
+    display: inline-block;
+    margin-left: 30px;
+    max-width: 550px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.services-container{
+    padding: 40px 60px;
+}
+.Seo-container, .ppc-container{
+    background-color: #F3F3F3;
+    display: flex;
+    width: 45%;
+    border-radius: 19px;
+    border: black 1px solid;
+    padding: 15px;
+    box-shadow: 10px;
+}
+.seocontainertop h2{
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 700px;
+}
+.seocontainerbottom{
+    display: flex;
+    align-items:center ;
+    padding-top: 100px;
+}
+.seocontainerbottom p, .ppscontainerbottom p{
+    padding-left: 10px;
+    
+}
+.seocontainerbottom p:hover{
+    background-color: #B9FF66;
+    padding: 2px;
+    cursor: pointer;
+}
+.ppc-container{
+    background-color: #B9FF66;
+}
+.firstrow{
+    display: flex;
+    gap: 25px;
 }
