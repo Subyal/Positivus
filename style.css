@@ -3,3 +3,50 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    color: lawngreen;
+}
+
+.nav{
+    padding-right: 50px;
+}
+
+.logo,nav{
+    margin-top:4% ;
+}
+.quote{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px 20px  !important;
+    margin-left: 50px;
+    transition: background-color .5s;
+}
+
+.quote:hover{
+    background-color: lawngreen;
+}
+
+.quote a:hover{
+    color: black !important;
+}
+
+
