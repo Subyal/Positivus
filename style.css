@@ -109,7 +109,7 @@ header{
 .services-container{
     padding: 40px 60px;
 }
-.Seo-container, .ppc-container{
+.main-container{
     background-color: #F3F3F3;
     display: flex;
     width: 45%;
@@ -117,22 +117,24 @@ header{
     border: black 1px solid;
     padding: 15px;
     box-shadow: 10px;
+    margin: 10px;
+    align-items: space-between;
 }
-.seocontainertop h2{
+.containertop h2{
     line-height: 40px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700px;
 }
-.seocontainerbottom{
+.containerbottom{
     display: flex;
     align-items:center ;
     padding-top: 100px;
 }
-.seocontainerbottom p, .ppscontainerbottom p{
+.containerbottom p, .ppccontainerbottom p{
     padding-left: 10px;
     
 }
-.seocontainerbottom p:hover{
+.containerbottom p:hover{
     background-color: #B9FF66;
     padding: 2px;
     cursor: pointer;
@@ -143,4 +145,19 @@ header{
 .firstrow{
     display: flex;
     gap: 25px;
+}
+.containerbottom p:hover{
+    background-color: #F3F3F3;
+}
+.bg{
+    background-color: #B9FF66;
+}
+.cg{
+    background-color: #191A23;
+}
+.bchange{
+    color: white;
+}
+.title{
+    color: white;
 }
