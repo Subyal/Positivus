@@ -331,3 +331,40 @@ header{
     font-weight: 400;
     line-height: 27px;
 }
+
+.teaminfo-container{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.tmembers{
+    border: black solid 2px;
+    margin: 10px 10px;
+    border-radius: 30px;
+    max-width: 400px;
+}
+.teaminfo-container1{
+    display: flex;
+}
+.teaminfo-container2{
+    display: flex;
+}
+.mcontanier-top{
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-between;
+}
+.tmemberspic img{
+    width: 100px;
+    height: auto;
+}
+.tmemberssociallogo img{
+    height: auto;
+    width: 40px;
+}
+.tmembersexperience{
+    padding: 20px 20px;
+    line-height: 40px;
+}
+.tmembers hr{
+    width: 350px;
+}
