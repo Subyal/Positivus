@@ -262,5 +262,6 @@ header{
     color: white;
 }
 .des-sec{
-    border-right: gray solid 0.2px;
+    border-right: rgb(133, 122, 122) solid 0.2px;
+
 }
