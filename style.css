@@ -403,6 +403,7 @@ header{
 }
 .selection-form{
     margin-bottom: 60px;
+    margin-left:20px;
 }
 .selection-form label{
     font-size: 25px;
@@ -453,4 +454,33 @@ header{
     background-color: #B9FF66;
     color: black;
 }
-
+#footer{
+    padding: 40px 60px;
+    margin: 20px 90px 0 90px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+    background-color: #191A23;
+}
+.fcontainertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footernav li{
+    list-style: none;
+    display: inline;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+.footernav li a{
+    text-decoration: none;
+    color: white;
+}
+.footernav li a:hover{
+    color: #B9FF66;
+}
+.company-info h3{
+    background-color: #B9FF66;
+}
