@@ -368,3 +368,42 @@ header{
 .tmembers hr{
     width: 350px;
 }
+.tmember-view{
+    display: flex ;
+    justify-content: right;
+    margin-right: 90px;
+}
+.tmember-view button{
+    margin-top: 50px;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    transition: background-color 1s;
+}
+.tmember-view button:hover{
+    color: black;
+    background-color: #B9FF66;
+}
+#Contact{
+    padding: 40px 100px;
+}
+.Contact-container{
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+.form-contaner{
+    display: block;
+    padding: 50px;
+    align-items: center;
+}
+.selection-form label{
+    font-size: 20px;
+    font-weight: 400;
+   
+}.input[type="radio"]{
+    
+}
