@@ -484,7 +484,9 @@ header{
 .fcenter-container{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    border-bottom: white solid 2px;
+    margin-bottom: 30px;
 }
 .company-info h3{
     display: inline;
@@ -507,8 +509,52 @@ header{
     align-items:center;
     background-color: #292A32;
     gap: 20px;
-    border-radius: 20px;
+    border-radius: 11px;
     padding: 20px 15px 20px 15px ;
+    width: 60%;
+}
+.input-email input[type="email"]{
+    padding: 30px 280px 35px 20px;
+    border-radius: 20px;
+    background-color: #292A32;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    margin-left: 10px;
+}
+.input-email input[type="email"]::placeholder{
+    color: white;
+}
+.Subscribe-btn button{
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #B9FF66;
+    color: rgb(0, 0, 0);
+    transition: background-color .20s;
+}
+.Subscribe-btn button:hover{
+    background-color: #191A23;
+    color: white;
+    border-color: #B9FF66;
+}
+.footer-copy-rights{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.footer-copy-rights p{
+    padding-right: 50px;
+    font-family: 20px;
+    font-weight: 400;
+}
+.footer-copy-rights a{
+    text-decoration: none;
+    color: white;
+}
+.footer-copy-rights a:hover{
+    color: #B9FF66;
+
 }
 
-
+    
