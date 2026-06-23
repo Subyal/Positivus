@@ -400,6 +400,9 @@ header{
     padding: 50px;
     align-items: center;
 }
+.selection-form{
+    margin-bottom: 60px;
+}
 .selection-form label{
     font-size: 25px;
     font-weight: 400;
@@ -408,6 +411,26 @@ header{
     transform: scale(1.5);
     margin:  0 20px;
 }
-.contact-img img{
-    
+.info-form label{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+.info-form input[type="text"]{
+    padding: 20px 150px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.info-form input[type="email"]{
+    padding: 20px 150px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.textarea{
+    padding: 20px 150px;
+    margin: 15px;
+    border-radius: 10px;
 }
