@@ -401,9 +401,13 @@ header{
     align-items: center;
 }
 .selection-form label{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
-   
-}.input[type="radio"]{
+   }
+.selection-form input[type="radio"]{
+    transform: scale(1.5);
+    margin:  0 20px;
+}
+.contact-img img{
     
 }
