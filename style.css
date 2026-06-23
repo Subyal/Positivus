@@ -381,6 +381,7 @@ header{
     color: white;
     background-color: black;
     transition: background-color 1s;
+    font-size: 20px;
 }
 .tmember-view button:hover{
     color: black;
@@ -448,3 +449,8 @@ header{
     width: 300px;
     margin-top: 20px;
 }
+.info-form button:hover{
+    background-color: #B9FF66;
+    color: black;
+}
+
