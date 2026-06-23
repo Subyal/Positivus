@@ -481,6 +481,34 @@ header{
 .footernav li a:hover{
     color: #B9FF66;
 }
-.company-info h3{
-    background-color: #B9FF66;
+.fcenter-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
+.company-info h3{
+    display: inline;
+    background-color: #B9FF66;
+    color: #191A23;
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.footer-address{
+    max-width: 300px;
+    margin-top: 10px;
+    padding-top: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-subscribe{
+    display: flex;
+    align-items:center;
+    background-color: #292A32;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px 15px 20px 15px ;
+}
+
+
